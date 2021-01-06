@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/employee" xmlns:tns="http://www.example.org/employee" elementFormDefault="qualified">
+
+<xs:element name="employee">
+
+<xs:complexType>
+
+<xs:sequence>
+
+<xs:element name="emp" minOccurs="1" maxOccurs="4">
+
+<xs:complexType>
+
+<xs:sequence>
+
+<xs:element name="ename">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:minLength value="3"></xs:minLength>
+<xs:maxLength value="7"></xs:maxLength>
+</xs:restriction>
+</xs:simpleType>
+
+
+
+
+
+</xs:element>
+<xs:element name="dept" type="xs:string"></xs:element>
+<xs:element name="salary">
+<xs:simpleType>
+<xs:restriction base="xs:double">
+
+<xs:minInclusive value="10000"></xs:minInclusive>
+<xs:maxInclusive value="90000"></xs:maxInclusive>
+</xs:restriction>
+</xs:simpleType>
+
+</xs:element>
+<xs:element name="dob" type="xs:date"></xs:element>
+
+
+</xs:sequence>
+
+
+</xs:complexType>
+
+
+
+
+</xs:element>
+
+
+
+</xs:sequence>
+
+
+
+</xs:complexType>
+
+
+</xs:element>
+
+
+</xs:schema>

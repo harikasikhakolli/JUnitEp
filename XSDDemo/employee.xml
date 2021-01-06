@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employee.xsl"?>
+<tns:employee xmlns:tns="http://www.example.org/employee" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.example.org/employee employee.xsd ">
+
+  <tns:emp>
+    <tns:ename>ename</tns:ename>
+    <tns:dept>tns:dept</tns:dept>
+    <tns:salary>40000</tns:salary>
+    <tns:dob>2001-01-01</tns:dob>
+  </tns:emp>
+  
+  <tns:emp>
+    <tns:ename>ename2</tns:ename>
+    <tns:dept>cse</tns:dept>
+    <tns:salary>40000</tns:salary>
+    <tns:dob>2001-01-01</tns:dob>
+  </tns:emp>
+  
+  
+  
+
+</tns:employee>

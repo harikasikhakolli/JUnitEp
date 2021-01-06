@@ -1,0 +1,19 @@
+employee { 
+    display:table; 
+    font-size:14px; 
+    margin:8px; 
+    font-family: Verdana; 
+    width: 100%;
+        border: 1px solid silver; 
+} 
+emp{ 
+    display:table-row; 
+    text-align:center; 
+    padding:10px; 
+    background-color:whitesmoke; 
+} 
+ename,dept,salary,dob { 
+    display: table-cell; 
+    border: solid 1px; 
+    width: 25%;
+}

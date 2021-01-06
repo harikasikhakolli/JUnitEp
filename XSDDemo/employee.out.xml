@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h2>My Emp Data</h2>
+        <table border="1">
+            <tr bgcolor="#9acd32">
+                <th>Name</th><th>Dept</th><th>Salary</th><th>DoB</th>
+            </tr>
+        </table>
+    </body>
+</html>
